@@ -70,3 +70,13 @@ address {
     padding-top: 1em;
     border-top: thin dotted 
 }
+
+.image-container {
+    display: flex;
+    width: 100%
+}
+
+.image-container img {
+    height: auto;
+    width: 650px;
+}
