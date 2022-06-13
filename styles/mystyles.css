@@ -1,39 +1,68 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    box-sizing: 0;
+    margin: 0;
+}
+
 body {
-    padding-left: 11em;
     font-family: Georgia, "Times New Roman", Times, serif;
     color: purple;
     background-color: #f2f2f2;
 }
 
-ul.navbar {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-	position: absolute;
-    top: 2em;
-    left: 1em;
-    width: 10em 
-}
 
 h1 {
     font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
 }
-		
+
+nav {
+    width: 100%;
+    background-color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header {
+    background: #555555;
+}
+
+.logo {
+    padding: 10px;
+    color: white;
+}
+
 ul.navbar li {
-    background: white;
-    margin: 0.5em 0;
-    padding: 0.3em;
-    border-right: 1em solid black 
+    background: black;
+    padding: 15px;
 }
 
 ul.navbar a {
     text-decoration: none;
+    padding: 15px;
+    color: white;
+    /* background-color: red; */
 }
 a:link {
     color: blue; 
 }
 a:visited {
     color: purple 
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.content {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 30px;
 }
 
 address {
